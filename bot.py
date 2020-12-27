@@ -11,7 +11,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s:%(lineno)d'
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-bot_token = os.environ['TELEGRAM_TOKEN']
+bot_token = os.environ['1466497669:AAENHJ2K5oC8qGraC07ntxbZTXIlTa60IG8']
 
 def handle_large_text(text):
     while text:
